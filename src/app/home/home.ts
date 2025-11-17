@@ -9,8 +9,10 @@ import { HousingLocation } from '../housing-location/housing-location';
       <form>
         <input type="text" placeholder="Filter by city" />
         <button class="primary" type="button">Search</button>
-        <app-housing-location></app-housing-location>
       </form>
+    </section>
+    <section>
+      <app-housing-location></app-housing-location>
     </section>
   `,
   styleUrls: ['./home.css']
